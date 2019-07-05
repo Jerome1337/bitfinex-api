@@ -2,10 +2,10 @@
 Main ticker script
 """
 from time import sleep
-from tickers.bitcoin import Bitcoin
+from tickers.ticker import Ticker
 
-TICKER = Bitcoin()
+TICKER = Ticker("btc", "usd")
 
 while True:
-    TICKER.get_bitcoin_information()
+    TICKER.get_currency_information()
     sleep(20)

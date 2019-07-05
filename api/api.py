@@ -9,7 +9,7 @@ class Api:
 
     def get_full_endpoint(self, path):
         """
-        :param path: The wanted API path, format /*/*
+        :param path: str
         :return: Return the formatted API URL with the good endpoint
         :rtype: str
         """
