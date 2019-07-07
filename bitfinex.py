@@ -1,8 +1,11 @@
+"""
+Main ticker script
+"""
 from time import sleep
 from tickers.bitcoin import Bitcoin
 
-ticker = Bitcoin()
+TICKER = Bitcoin()
 
 while True:
-    ticker.get_bitcoin_information()
+    TICKER.get_bitcoin_information()
     sleep(20)
