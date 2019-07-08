@@ -5,4 +5,4 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - pylint bitfinex api tickers
+  - pylint bitfinex api helpers

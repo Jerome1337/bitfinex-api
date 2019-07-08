@@ -2,7 +2,7 @@
 Main ticker script
 """
 from time import sleep
-from tickers.ticker import Ticker
+from helpers.ticker import Ticker
 
 TICKER = Ticker("btc", "usd")
 
